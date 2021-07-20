@@ -1,0 +1,177 @@
+
+.sandbox {
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 10px;
+    grid-template-areas: 
+    "box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
+    "box2 box2 box2 box3 box3 box3 box3 box3 box3 box4 box4 box4"
+    "box6 box6 box6 box6 box6 box6 box6 box5 box5 box4 box4 box4"
+    "box7 box7 box7 box7 box7 box7 box7 box5 box5 box4 box4 box4"
+    "box8 box8 box9 box9 box9 box10 box10 box5 box5 box4 box4 box4"
+    "box8 box8 box9 box9 box9 box10 box10 box11 box11 box11 box11 box11"
+    "box8 box8 box9 box9 box9 box10 box10 box11 box11 box11 box11 box11"
+    "box12 box12 box9 box9 box9 box13 box13 box13 box14 box14 box14 box14"
+    "box12 box12 box9 box9 box9 box13 box13 box13 box14 box14 box14 box14"
+    "box15 box15 box15 box15 box15 box15 box15 box15 box15 box15 box15 box15"
+    "box16 box16 box16 box16 box16 box16 box16 box16 box16 box16 box16 box16"
+    "box16 box16 box16 box16 box16 box16 box16 box16 box16 box16 box16 box16";
+    margin: 0px auto 0px;
+    
+    width: 1320px;
+    height: auto;
+    background-color: rgb(153, 214, 255);
+}
+
+.box1{
+    grid-area:box1;
+    text-align: center;
+    line-height:100px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 17, 255);    
+}
+
+.box2{
+    grid-area:box2;
+    text-align: center;
+    line-height:100px;
+    font-size: 70px;
+    border-radius:0px 30px 30px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+
+.box3{
+    grid-area:box3;
+    display: flex;
+    
+}
+.input{      
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 70px;
+    border-radius:50px 0px 0px 50px;
+    background-color: aliceblue;
+    
+}
+.btn{      
+    width: 15%;
+    height: 100%;
+    border-radius:0px 50px 50px 0px;
+    background-color: aliceblue;
+    outline: none;
+}
+.img{      
+    width: 70%;
+    height: 50%;
+    border-radius:50px 50px 50px 50px;
+    
+}
+.box4{
+    grid-area:box4;
+    text-align: center;
+    line-height:430px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);    
+    background-color: rgb(0, 153, 255);
+}
+.box5{
+    grid-area:box5; 
+    text-align: center;
+    line-height:320px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);   
+    background-color: rgb(0, 153, 255);
+}
+.box6{
+    grid-area:box6;    
+    text-align: center;
+    line-height:100px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box7{
+    grid-area:box7;    
+    text-align: center;
+    line-height:100px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box8{
+    grid-area:box8;    
+    text-align: center;
+    line-height:320px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box9{
+    grid-area:box9;    
+    text-align: center;
+    line-height:320px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box10{
+    grid-area:box10;    
+    text-align: center;
+    line-height:320px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box11{
+    grid-area:box11;    
+    text-align: center;
+    line-height:210px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box12{
+    grid-area:box12;    
+    text-align: center;
+    line-height:200px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box13{
+    grid-area:box13;    
+    text-align: center;
+    line-height:200px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box14{
+    grid-area:box14;    
+    text-align: center;
+    line-height:200px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box15{
+    grid-area:box15;    
+    text-align: center;
+    line-height:100px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
+.box16{
+    grid-area:box16;    
+    text-align: center;
+    line-height:210px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+}
